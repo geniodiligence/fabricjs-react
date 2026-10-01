@@ -16,8 +16,9 @@ export default defineConfig({
   ],
   build: {
     lib: {
-      entry: resolve(__dirname, 'src/lib/index.tsx'),
-      formats: ['es']
+      entry: resolve(import.meta.dirname, 'src/lib/index.tsx'),
+      formats: ['es'],
+      fileName: 'fabricjs-react'
     },
     copyPublicDir: false
   }
