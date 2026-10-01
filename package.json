@@ -1,6 +1,6 @@
 {
   "name": "@geniodiligence/fabricjs-react",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "React component and hook for Fabric.js (v5, v6, v7). Maintained fork of fabricjs-react by Alejandro Soto.",
   "author": "Mohammed Ridha M. M.",
   "contributors": [
